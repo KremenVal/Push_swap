@@ -28,14 +28,21 @@ make
 # Options:
 
 ./push_swap 4 3 2 5
+
 Result: rra, pb, ra, sa, pb
 
 ./checker 4 3 2 5
+
 rra
+
 pb
+
 ra
+
 sa
+
 pb
+
 Result: OK
 
 ARG="4 67 3 87 23";./push_swap $ARG | ./checker $ARG
